@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Background</title>
+    <style>
+        body{
+            background-color: rgb(67, 67, 66);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Click to change colours!!!!!!</h1>
+
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    
+</body>
+<script>
+    let intervalID;
+
+    //generate random colour
+
+    const randomColour = function(){
+        const hex = "0123456789ABCDEF"
+        let colour = '#'
+        for(let i = 0 ; i < 6 ; i++)
+        {
+            colour += hex[Math.floor(Math.random() * 16)]
+        }
+        return colour
+    };
+
+    console.log(randomColour())
+
+
+
+    document.querySelector('#start').addEventListener('click', function(e){
+        if(!intervalID){      //also good code design checks if value is null or not
+        intervalID = setInterval(() => {
+            document.body.style.backgroundColor = randomColour();
+            console.log("Check")
+        }, 1000);
+    }
+    })
+
+    //or function changeColour() {document.body.style.backgroundColor = randomColour(); }
+    // and then setInterval(changeColour, 1000) 
+
+    document.querySelector('#stop').addEventListener('click', function(e){
+        clearInterval(intervalID);
+        intervalID = null //to clean up code more
+    })
+
+
+</script>
+</html>
