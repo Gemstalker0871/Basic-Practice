@@ -1,0 +1,82 @@
+h1{
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(23, 21, 21);
+}
+
+.content{
+    align-items: center;
+    text-align: center;
+}
+
+.content p{
+    color: aliceblue;
+}
+
+#guess{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#field{
+    width: 300px;     
+    height: 40px;    
+    font-size: 18px;  
+    padding: 10px; 
+}
+
+#sub{
+    width: 200px;     
+    height: 40px;    
+    font-size: 18px;  
+    padding: 10px; 
+    background-color: black;
+    color: aliceblue;
+}
+
+#newGame{
+    cursor: pointer;
+}
+h1{
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(23, 21, 21);
+}
+
+.content{
+    align-items: center;
+    text-align: center;
+}
+
+.content p{
+    color: aliceblue;
+}
+
+#guess{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#field{
+    width: 300px;     
+    height: 40px;    
+    font-size: 18px;  
+    padding: 10px; 
+}
+
+#sub{
+    width: 200px;     
+    height: 40px;    
+    font-size: 18px;  
+    padding: 10px; 
+    background-color: black;
+    color: aliceblue;
+}
+
+#newGame{
+    cursor: pointer;
+}
