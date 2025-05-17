@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(63, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 106, 176);
+    font-weight:bolder;
+}
+
+#container{
+    background-color: aliceblue;
+    text-align: center;
+    max-width: fit-content;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+}
+
+#input{
+    height: 40px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    border: solid black;
+    border-radius: 4px;
+}
+
+#radio{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 20px;
+    background-color: rgb(209, 48, 48);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
