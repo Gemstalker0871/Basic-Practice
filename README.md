@@ -1,2 +1,3 @@
-# Pong-Game
-A simple pong game for fun
+# Basic Projects
+A bunch of basic projects for Javascript practice
+
